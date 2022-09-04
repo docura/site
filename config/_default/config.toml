@@ -7,3 +7,5 @@ languageCode = 'en-us'
 googleAnalytics = 'G-JTX12SV6KT'
 
 enableGitInfo = true
+
+theme = 'docura'
