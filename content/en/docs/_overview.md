@@ -1,8 +1,9 @@
 ---
-title: Overview
+title: Documentation
+url: "docs"
 description: Learn more about the team maintaining Docura, how and why the project started, and how to get involved.
 aliases:
-- "/docs/"
+- "/docs/overview"
 ---
 
 # h1 header
