@@ -30,15 +30,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit
 >
 > commodo consequat [Duis aute](https://github.com/dumindu/css-playground)
 
-```yml
-app:
-  build:
-    context: .
-    dockerfile: ./docker/app/Dockerfile
-  env_file:
-    - ./docker/app/.env
-  ports:
-    - "8080:8080"
+```rust
+fn main() {
+    println!("Hello, world!");
+}
 ```
 
 ```go
@@ -55,11 +50,16 @@ func HandleIndex(w http.ResponseWriter, _ *http.Request) {
 }
 ```
 
-```rust
-fn main() {
-    println!("Hello, world!");
-}
-```
+{{< highlight yml "linenos=inline,hl_lines=5-6,linenostart=4" >}}
+app:
+  build:
+    context: .
+    dockerfile: ./docker/app/Dockerfile
+  env_file:
+    - ./docker/app/.env
+  ports:
+    - "8080:8080"
+{{< / highlight >}}
 
 ![Colorful galaxy](https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2650&q=80)
 Image credit: [Jeremy Thomas](https://unsplash.com/@jeremythomasphoto)
