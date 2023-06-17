@@ -1,18 +1,14 @@
-- title: Documentation
+- title: 📖 Documentation
   pages:
     - title: Overview
+    - title: Sample
 
-- title: Section 01
+- title: 🌱 Getting Started
   pages:
-    - title: Article 01
-    - title: Article 02
+    - title: Installation
+    - title: Configurations
+    - title: First Documentation
 
-- title: Section 02
+- title: ❤️ Made with Docura
   pages:
-    - title: Article 03
-    - title: Article 04
-
-- title: Section 03
-  pages:
-    - title: Article 05
-    - title: Article 06
+    - title: Showcase
