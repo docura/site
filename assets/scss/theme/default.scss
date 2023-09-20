@@ -1,0 +1,114 @@
+@import "../font/inter";
+@import "../icon/default";
+
+:root {
+  --font-family: 'Inter', sans-serif;
+  --font-family-brand: 'Times', serif;
+  --font-family-code: 'Menlo', monospace;
+
+  --background: linear-gradient(to bottom, rgba(255,255,245,1) 0%, rgba(255,255,250,1) 24%, rgba(255,255,255,1) 50%, rgba(255,255,250,1) 79%, rgba(255,255,245,1) 100%);
+  --color: #363636;
+  --color2: #746158;
+  --color3: #8c7c6b;
+
+  --color-anchor: #508CC8;
+  --color-hover: #78A0C8;
+
+  --background-fg: #F7F7EF;
+  --background-fg2: #EBEBEB;
+  --border-color: #9e8d7a;
+
+  --blur: 10px;
+
+  --home-cover-background: radial-gradient(circle, rgba(255,255,245,1) 0%, rgba(255,255,250,1) 25%, rgba(235,235,225,1) 50%, rgba(255,255,250,1) 75%, rgba(255,255,245,1) 100%);
+
+  --icon-filter: invert(49%) sepia(26%) saturate(280%) hue-rotate(350deg) brightness(95%) contrast(87%);
+
+  /* base16 tomorrow */
+  --chroma-base00: rgba(247, 247, 239, 1);
+  --chroma-base01: #e0e0e0;
+  --chroma-base02: rgba(159, 218, 159, .2);
+  --chroma-base03: #8e908c;
+  --chroma-base04: #969896;
+  --chroma-base05: #4d4d4c;
+  --chroma-base06: #282a2e;
+  --chroma-base07: #1d1f21;
+  --chroma-base08: #c82829;
+  --chroma-base09: #f5871f;
+  --chroma-base0A: #eab700;
+  --chroma-base0B: #718c00;
+  --chroma-base0C: #3e999f;
+  --chroma-base0D: #4271ae;
+  --chroma-base0E: #8959a8;
+  --chroma-base0F: #a3685a;
+}
+
+:root[data-color="dark"] {
+  --background: linear-gradient(to bottom, rgba(33, 33, 29, 1) 0%, rgba(35, 35, 31, 1) 24%, rgba(37, 37, 33, 1) 50%, rgba(33, 33, 29, 1) 79%, rgba(31, 31, 27, 1) 100%);
+  --color: #efefef;
+  --color2: #ffffff;
+  --color3: #b3b3b3;
+
+  --background-fg: #333333;
+  --background-fg2: #1f1f1f;
+  --border-color: rgba(255, 255, 255, .4);
+
+  --home-cover-background: radial-gradient(circle, rgba(35, 35, 31, 1) 0%, rgba(35, 35, 31, 1) 24%, rgba(37, 37, 33, 1) 50%, rgba(33, 33, 29, 1) 79%, rgba(31, 31, 27, 1) 100%);
+
+  --icon-filter: invert(97%) sepia(0%) saturate(3231%) hue-rotate(294deg) brightness(118%) contrast(87%);
+
+  /* base16 tomorrow night */
+  --chroma-base00: #080808;
+  --chroma-base01: #393939;
+  --chroma-base02: rgba(159, 218, 159, .1);
+  --chroma-base03: #999999;
+  --chroma-base04: #b4b7b4;
+  --chroma-base05: #cccccc;
+  --chroma-base06: #e0e0e0;
+  --chroma-base07: #ffffff;
+  --chroma-base08: #f2777a;
+  --chroma-base09: #f99157;
+  --chroma-base0A: #ffcc66;
+  --chroma-base0B: #99cc99;
+  --chroma-base0C: #66cccc;
+  --chroma-base0D: #6699cc;
+  --chroma-base0E: #cc99cc;
+  --chroma-base0F: #a3685a;
+}
+
+:root[data-color="night"] {
+  --background: linear-gradient(to bottom, rgba(51, 51, 51, 1) 0%, rgba(57, 57, 57, 1) 24%, rgba(63, 63, 63, 1) 50%, rgba(57, 57, 57, 1) 79%, rgba(51, 51, 51, 1) 100%);
+  --color: #cccccc;
+  --color2: #dedede;
+  --color3: #9d9d9d;
+
+  --background-fg: #444444;
+  --background-fg2: #303030;
+  --border-color: rgba(255, 255, 255, 0.2);
+
+  --home-cover-background: radial-gradient(circle, rgba(57, 57, 57, 1) 0%, rgba(51, 51, 51, 1) 24%, rgba(63, 63, 63, 1) 50%, rgba(57, 57, 57, 1) 79%, rgba(51, 51, 51, 1) 100%);
+
+  --icon-filter: invert(100%) sepia(2%) saturate(1090%) hue-rotate(294deg) brightness(83%) contrast(92%);
+
+  /* base16 twilight */
+  --chroma-base00: #1e1e1e;
+  --chroma-base01: #323537;
+  --chroma-base02: rgba(159, 218, 159, .1);
+  --chroma-base03: #5f5a60;
+  --chroma-base04: #838184;
+  --chroma-base05: #a7a7a7;
+  --chroma-base06: #c3c3c3;
+  --chroma-base07: #ffffff;
+  --chroma-base08: #cf6a4c;
+  --chroma-base09: #cda869;
+  --chroma-base0A: #f9ee98;
+  --chroma-base0B: #8f9d6a;
+  --chroma-base0C: #afc4db;
+  --chroma-base0D: #7587a6;
+  --chroma-base0E: #9b859d;
+  --chroma-base0F: #9b703f;
+}
+
+.icon:not(.icon-colored) {
+  filter: var(--icon-filter);
+}
