@@ -44,7 +44,7 @@
 }
 
 :root[data-color="dark"] {
-  --background: linear-gradient(to bottom, rgba(25, 25, 20, 1) 0%, rgba(22, 22, 20, 1) 24%, rgba(20, 20, 20, 1) 50%, rgba(22, 22, 20, 1) 75%, rgba(25, 25, 20, 1) 100%);
+  --background: #121212;
   --color: #efefef;
   --color2: #ffffff;
   --color3: #b3b3b3;
@@ -53,9 +53,9 @@
   --background-fg2: #1f1f1f;
   --border-color: rgba(255, 255, 255, .4);
 
-  --home-cover-background: radial-gradient(circle, rgba(25, 25, 20, 1) 0%, rgba(22, 22, 20, 1) 24%, rgba(20, 20, 20, 1) 50%, rgba(22, 22, 20, 1) 75%, rgba(25, 25, 20, 1) 100%);
+  --home-cover-background: radial-gradient(circle, rgba(23,23,25,1) 0%, rgba(18,18,0,1) 25%, rgba(32,32,32,1) 50%, rgba(18,18,0,1) 75%, rgba(23,23,25,1) 100%);
 
-  --icon-filter: invert(97%) sepia(0%) saturate(3231%) hue-rotate(294deg) brightness(118%) contrast(87%);
+  --icon-filter: invert(83%) sepia(0%) saturate(1582%) hue-rotate(126deg) brightness(86%) contrast(80%);
 
   /* base16 tomorrow night */
   --chroma-base00: #080808;
@@ -77,7 +77,7 @@
 }
 
 :root[data-color="night"] {
-  --background: linear-gradient(to bottom, rgba(51, 51, 51, 1) 0%, rgba(57, 57, 57, 1) 24%, rgba(63, 63, 63, 1) 50%, rgba(57, 57, 57, 1) 79%, rgba(51, 51, 51, 1) 100%);
+  --background: #333333;
   --color: #cccccc;
   --color2: #dedede;
   --color3: #9d9d9d;
@@ -86,9 +86,9 @@
   --background-fg2: #303030;
   --border-color: rgba(255, 255, 255, 0.2);
 
-  --home-cover-background: radial-gradient(circle, rgba(57, 57, 57, 1) 0%, rgba(51, 51, 51, 1) 24%, rgba(63, 63, 63, 1) 50%, rgba(57, 57, 57, 1) 79%, rgba(51, 51, 51, 1) 100%);
+  --home-cover-background: radial-gradient(circle, rgba(52,52,52,1) 0%, rgba(42,42,42,1) 25%, rgba(57,57,57,1) 50%, rgba(42,42,42,1) 75%, rgba(52,52,52,1) 100%);
 
-  --icon-filter: invert(100%) sepia(2%) saturate(1090%) hue-rotate(294deg) brightness(83%) contrast(92%);
+  --icon-filter: invert(60%) sepia(25%) saturate(20%) hue-rotate(343deg) brightness(98%) contrast(94%);
 
   /* base16 twilight */
   --chroma-base00: #1e1e1e;
