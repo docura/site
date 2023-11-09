@@ -1,0 +1,76 @@
+theme: docura
+description: A modular Hugo theme to build your next documentation site
+
+enableGitInfo: true
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+services:
+  googleAnalytics:
+    ID: G-JTX12SV6KT
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    languageCode: en-US
+    contentDir: content/en
+    title: Docura
+    weight: 1
+
+params:
+
+  author:
+    name: Dumindu Madunuwan
+    url: https://github.com/dumindu
+
+  themeColors:
+    light: '#fffff5'
+    dark: '#121212'
+
+  years:
+    start: 2019
+    present: 2023
+
+  social:
+    github: docura
+    youtube: ''
+    facebook: ''
+    x: ''
+
+  ads:
+    googleAdSense: ''
+
+  donate:
+    buyMeACoffee: dumindu
+    githubSponsor: dumindu
+
+  algolia:
+    en:
+      container: '#site-header-search'
+      appId: 'docura'
+      indexName: 'docura'
+      apiKey: ''
+
+  home:
+    repository: docura/docura
+
+menu:
+  main:
+
+    - url: /
+      name: Home
+      identifier: home
+      pre: "<i class='icon icon-home'></i>"
+      weight: 1
+
+    - url: /docs
+      name: Documentation
+      identifier: docs
+      pre: "<i class='icon icon-book'></i>"
+      weight: 2
