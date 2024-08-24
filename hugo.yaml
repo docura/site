@@ -2,26 +2,28 @@ theme: docura
 
 enableGitInfo: true
 
+defaultContentLanguage: en
+
+languages:
+  en:
+    weight: 1
+    languageName: English
+    languageCode: en-US
+    contentDir: content/en
+    title: Docura
+    params:
+      description: A modular Hugo theme to build your next documentation site
+
+services:
+  googleAnalytics:
+    ID: G-JTX12SV6KT
+
 markup:
   highlight:
     noClasses: false
   goldmark:
     renderer:
       unsafe: true
-
-services:
-  googleAnalytics:
-    ID: G-JTX12SV6KT
-
-defaultContentLanguage: en
-languages:
-  en:
-    languageName: English
-    languageCode: en-US
-    contentDir: content/en
-    title: Docura
-    description: A modular Hugo theme to build your next documentation site
-    weight: 1
 
 params:
 
